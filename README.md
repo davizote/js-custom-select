@@ -1,4 +1,4 @@
-# AngularJS Custom Select Directive
+# AngularJS Custom Select Directive with "clean" button
 
 Custom auto-complete select box for AngularJS and Bootstrap.
 
