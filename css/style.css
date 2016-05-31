@@ -4,13 +4,67 @@
 	vertical-align: middle;
 	font-size: 13px;
 	zoom: 1;
-	*display: inline;
-	width: 220px;
+	display: inline;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 }
+
+.col-sm-1.custom-select .dropdown-menu, 
+.col-md-1.custom-select .dropdown-menu, 
+.col-lg-1.custom-select .dropdown-menu, 
+.col-xs-2.custom-select .dropdown-menu, 
+.col-sm-2.custom-select .dropdown-menu, 
+.col-md-2.custom-select .dropdown-menu, 
+.col-lg-2.custom-select .dropdown-menu, 
+.col-xs-1.custom-select .dropdown-menu, 
+.col-xs-3.custom-select .dropdown-menu, 
+.col-sm-3.custom-select .dropdown-menu, 
+.col-md-3.custom-select .dropdown-menu, 
+.col-lg-3.custom-select .dropdown-menu, 
+.col-xs-4.custom-select .dropdown-menu, 
+.col-sm-4.custom-select .dropdown-menu, 
+.col-md-4.custom-select .dropdown-menu, 
+.col-lg-4.custom-select .dropdown-menu, 
+.col-xs-5.custom-select .dropdown-menu, 
+.col-sm-5.custom-select .dropdown-menu, 
+.col-md-5.custom-select .dropdown-menu, 
+.col-lg-5.custom-select .dropdown-menu, 
+.col-xs-6.custom-select .dropdown-menu, 
+.col-sm-6.custom-select .dropdown-menu, 
+.col-md-6.custom-select .dropdown-menu, 
+.col-lg-6.custom-select .dropdown-menu, 
+.col-xs-7.custom-select .dropdown-menu, 
+.col-sm-7.custom-select .dropdown-menu, 
+.col-md-7.custom-select .dropdown-menu, 
+.col-lg-7.custom-select .dropdown-menu, 
+.col-xs-8.custom-select .dropdown-menu, 
+.col-sm-8.custom-select .dropdown-menu, 
+.col-md-8.custom-select .dropdown-menu, 
+.col-lg-8.custom-select .dropdown-menu, 
+.col-xs-9.custom-select .dropdown-menu, 
+.col-sm-9.custom-select .dropdown-menu, 
+.col-md-9.custom-select .dropdown-menu, 
+.col-lg-9.custom-select .dropdown-menu, 
+.col-xs-10.custom-select .dropdown-menu, 
+.col-sm-10.custom-select .dropdown-menu, 
+.col-md-10.custom-select .dropdown-menu, 
+.col-lg-10.custom-select .dropdown-menu, 
+.col-xs-11.custom-select .dropdown-menu, 
+.col-sm-11.custom-select .dropdown-menu, 
+.col-md-11.custom-select .dropdown-menu, 
+.col-lg-11.custom-select .dropdown-menu, 
+.col-xs-12.custom-select .dropdown-menu, 
+.col-sm-12.custom-select .dropdown-menu, 
+.col-md-12.custom-select .dropdown-menu, 
+.col-lg-12.custom-select .dropdown-menu {
+    left: 15px;
+    right: 15px;
+    min-width: inherit;
+    float: left;
+}
+
 .custom-select.small {
 	width: 104px;
 }
@@ -66,14 +120,22 @@
 .custom-select > a.dropdown-toggle > span {
 	display: block;
 	overflow: hidden;
-	margin-right: 26px;
+	margin-right: 56px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+.custom-select > a.dropdown-toggle > button {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    padding: 0;
 }
 .custom-select > a.dropdown-toggle > b {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 30px;
 	display: block;
 	width: 18px;
 	height: 100%;
