@@ -6,6 +6,9 @@ Custom Select is inspired in the AngularJS `select` directive and adds extra fun
 
 Unlike many other autocomplete controls out there, this one is designed to work well with Id/Value objects, where you care about the Id in your model but you want to display a different value in the view.
 
+Added a "clean" button to restore initial state.
+CSS optimized for bootstrap.
+
 ## Using Custom Select
 
 For the simpler scenarios, using Custom Select is very similar to using the built-in AngularJS `select` directive. For client-side filtering, you can use a regular Angular filter in conjunction with the `$searchTerm` local variable provided by the custom select, which corresponds to the text entered into the search textbox; or you can use a function in your `$scope` that implements a custom filtering logic and returns the filtered items.
@@ -158,3 +161,4 @@ app.run(['customSelectDefaults', function(customSelectDefaults) {
 * jQuery
 * AngularJS
 * Twitter Bootstrap (2.x or 3.x)
+* Font Awesome Icons
